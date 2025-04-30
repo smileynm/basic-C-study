@@ -12,7 +12,6 @@ int main()
         for (int i = 0; i < n; i++)
         {
             if (((j - (i * n)) % 26) != 0) {
-                //printf("%c ", (j - (i * n) % 26) + 64);
                 printf("%c ", ((j - (i * n)) % 26) + 64);
             }
             else
@@ -21,6 +20,5 @@ int main()
         }
         printf("\n");
     }
-
     return 0;
 }
